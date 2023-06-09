@@ -1,5 +1,7 @@
- <div style = "margin-bottom:16px;">
-          <h4 style="color:rgb(120,130,110); margin-bottom:4px;">{{job['title']}}</h4>
+ <div class="border-bottom" style = "margin-bottom:16px; padding-bottom:8px;">
+   <div class="col=9">
+          <h4 style="color:rgb(120,130,110); margin-bottom:4px;">
+            {{job['title']}}</h4>
           <div>
             <b>Location : </b>{{job['location']}}
           </div>
@@ -8,4 +10,8 @@
             <b>Salary : </b>{{job['salary']}}
           </div>
           {% endif %}
+   </div>
+  <button type="button" class="btn btn-outline-primary">Apply</button>
+
+
         </div>
