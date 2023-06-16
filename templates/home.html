@@ -17,16 +17,9 @@
 <body>
   <div class="container">
   <h1 class="text-center mt-2 mb-4"> {{company_name}} Carrers </h1>
-    
-<nav class="navbar navbar-expand-lg bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="home.html">Home</a>
-    <a class="nav-link" href="about.html">About Us</a>
-    <a class="nav-link" href="services.html">Services</a>
-    <a class="nav-link" href="contact.html">Contact</a>      
+  <div>  
+ {% include'navbar.html' %}
   </div>
-</nav>
-  
 <img class = "img-fluid" id = "banner" src ="https://careers-website-9--diyageorge001.repl.co/static/banner.jpg" >
   <h2 class="text-center mt-2 mb-4"> About Joann </h2>
   <p class="lead"> 
@@ -42,8 +35,8 @@
   <button class="btn btn-primary btn-lg"> Contact Us </button>
     
  
-    <div class="card">
-    <div class="card-footer text-center">Copy right 2022 Joann</div>
+    <div>
+      {% include'footer.html' %}
     </div>
   
   </div>
